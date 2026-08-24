@@ -6,7 +6,7 @@ def main():
     """Run a simple demo of the GradeManager."""
     manager = GradeManager()
     
-    # sample students
+    # Add your own sample students for testing
     manager.add_student("Alice", grades=[85, 90, 88])
     manager.add_student("Bob", grades=[72, 75, 78])
     manager.add_student("Charlie", grades=[95, 92, 98])
