@@ -67,7 +67,7 @@ class GradeManager:
         for student in self.students:
             if student["grades"]:  # Only check if student has grades
                 avg = sum(student["grades"]) / len(student["grades"])
-                if avg < 60:  # Defect #6: Should be >= 60, not < 60
+                if avg < 60:  
                     passing.append(student["name"])
         return passing
 
@@ -76,7 +76,7 @@ class GradeManager:
         
         """
         names = []
-        for i in range(1, len(self.students)):  # Defect #2: Starts at 1, skips index 0
+        for i in range(1, len(self.students)):  
             names.append(self.students[i]["name"])
         return names
 
@@ -92,7 +92,7 @@ class GradeManager:
         """
         for student in self.students:
             if student["name"] == name:
-                grades_str = ", ".join(student["grades"])  # Defect #4: Can't join ints with str
+                grades_str = ", ".join(student["grades"])  
                 report = "Student: " + name + "\nGrades: " + grades_str
                 return report
         return f"Student '{name}' not found"
