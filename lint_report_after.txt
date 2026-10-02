@@ -1,0 +1,30 @@
+﻿************* Module cli
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\cli.py:8:0: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\cli.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\cli.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\cli.py:21:0: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\cli.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\cli.py:30:37: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\cli.py:34:0: C0303: Trailing whitespace (trailing-whitespace)
+************* Module grade_manager
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\grade_manager.py:12:43: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\grade_manager.py:59:53: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\grade_manager.py:70:28: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\grade_manager.py:79:46: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\grade_manager.py:95:57: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\grade_manager.py:12:4: W0102: Dangerous default value [] as argument (dangerous-default-value)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\grade_manager.py:109:8: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\grade_manager.py:2:0: W0611: Unused import json (unused-import)
+************* Module tests.test_grades
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\tests\test_grades.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\tests\test_grades.py:50:0: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\tests\test_grades.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\tests\test_grades.py:78:0: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\tests\test_grades.py:92:0: C0303: Trailing whitespace (trailing-whitespace)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\tests\test_grades.py:2:0: E0401: Unable to import 'pytest' (import-error)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\tests\test_grades.py:12:4: E1111: Assigning result of a function call, but 'add_student' returns None (assignment-from-no-return)
+Lab-1-Environment-Setup-Manual-Defect-Hunting\student_grade_manager\tests\test_grades.py:2:0: W0611: Unused import pytest (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 7.35/10 (previous run: 7.35/10, +0.00)
+
