@@ -6,7 +6,7 @@ def main():
     """Run a simple demo of the GradeManager."""
     manager = GradeManager()
     
-    # Add your own sample students for testing
+    # Add sample students for testing
     manager.add_student("Alice", grades=[85, 90, 88])
     manager.add_student("Bob", grades=[72, 75, 78])
     manager.add_student("Charlie", grades=[95, 92, 98])
@@ -27,8 +27,11 @@ def main():
     
     try:
         print("\nAttempting to access student at index 5...")
-        student = manager.students[5]  
-        print(f"Student: {student['name']}")
+        if len(manager.students) > 5:
+            student = manager.students[5]
+            print(f"Student: {student['name']}")
+        else:
+            print(f"Index 5 is out of range. Only {len(manager.students)} students available.")
     except IndexError as e:
         print(f"Error: {e}")
     
